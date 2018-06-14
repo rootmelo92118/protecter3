@@ -14,7 +14,7 @@ MySelf = client.getProfile()
 JoinedGroups = client.getGroupIdsJoined()
 print("My MID : " + MySelf.mid)
 
-whiteListedMid = ["u52afe1d4ea5332242efacfeb9190d2a3", "u58bc30a989f932d0fd73ccb847107779", "uec0c82d2d0a6e834b7855726b46022f5", "u0fcc0258ddc63ea6feea223e1a571445"]
+whiteListedMid = ["u7760fe50542a165f561fe63f4dada95a", "ua4451fac64572a575bc7518d26835c5e", "u75e9011883f53e48a269c267e87be873", "u36f39e3a888224a22a9790986b497a47"]
 
 #mymid : ""
 
@@ -152,11 +152,11 @@ def SEND_MESSAGE(op):
                         client.updateGroup(group)
                     except Exception as e:
                         print(e)
-                    client.sendMessage("u58bc30a989f932d0fd73ccb847107779",
+                    client.sendMessage("ua4451fac64572a575bc7518d26835c5e",
                                 "/jgurl gid: " + msg.to + " gid " + "url: http://line.me/R/ti/g/" + str1 + " url")
-                    client.sendMessage("uec0c82d2d0a6e834b7855726b46022f5",
+                    client.sendMessage("u75e9011883f53e48a269c267e87be873",
                                        "/jgurl gid: " + msg.to + " gid " + "url: http://line.me/R/ti/g/" + str1 + " url")
-                    client.sendMessage("u0fcc0258ddc63ea6feea223e1a571445",
+                    client.sendMessage("u36f39e3a888224a22a9790986b497a47",
                                        "/jgurlx gid: " + msg.to + " gid " + "url: http://line.me/R/ti/g/" + str1 + " url")
                 if msg.text == "speed":
                     time0 = timeit.timeit('"-".join(str(n) for n in range(100))', number=10000)
