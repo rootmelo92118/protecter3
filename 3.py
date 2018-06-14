@@ -14,7 +14,7 @@ MySelf = client.getProfile()
 JoinedGroups = client.getGroupIdsJoined()
 print("My MID : " + MySelf.mid)
 
-whiteListedMid = ["u52afe1d4ea5332242efacfeb9190d2a3", "u58bc30a989f932d0fd73ccb847107779", "uec0c82d2d0a6e834b7855726b46022f5", "u0fcc0258ddc63ea6feea223e1a571445"]
+whiteListedMid = ["u7760fe50542a165f561fe63f4dada95a", "ua4451fac64572a575bc7518d26835c5e", "u75e9011883f53e48a269c267e87be873", "u36f39e3a888224a22a9790986b497a47"]
 
 #mymid : ""
 
